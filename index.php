@@ -73,7 +73,82 @@
 
             <!---SERVICES----->
             <div class="content__whatWeDo">
+                <div class="__whatWeDo__name">
+                    <p>What we do</p>
+                </div>
 
+                <div class="__whatWeDo__container__block">
+                    <div class="__whatWeDo__wrapper">
+                        <div class="__whatWeDo__element">
+                            <!---number--->
+                            <span class="__whatWeDo__number">01.</span>
+                            <!---image--->
+                            <div class="__whatWeDo__image">
+                                <img src="./style/imgs/gg_website.svg" alt="">
+                            </div>
+                            <!---name--->
+                            <div class="__whatWeDo__name">
+                                <p>Ready Solutions</p>
+                            </div>
+                            <div class="__whatWeDo__desc">
+                                <!---__whatWeDo__small-element--->
+                                <div class="__whatWeDo__desc_element">
+                                    <div class="__whatWeDo__desc_element__circle">
+
+                                    </div>
+                                    <div class="__whatWeDo__desc_element__text">
+                                        <p>Turnkey websites</p>
+                                    </div>
+                                </div>
+                                                                <!---__whatWeDo__small-element--->
+                                                                <div class="__whatWeDo__desc_element">
+                                    <div class="__whatWeDo__desc_element__circle">
+
+                                    </div>
+                                    <div class="__whatWeDo__desc_element__text">
+                                        <p>Turnkey websites</p>
+                                    </div>
+                                </div>
+                                                                <!---__whatWeDo__small-element--->
+                                                                <div class="__whatWeDo__desc_element">
+                                    <div class="__whatWeDo__desc_element__circle">
+
+                                    </div>
+                                    <div class="__whatWeDo__desc_element__text">
+                                        <p>Turnkey websites</p>
+                                    </div>
+                                </div>
+                                                                <!---__whatWeDo__small-element--->
+                                                                <div class="__whatWeDo__desc_element">
+                                    <div class="__whatWeDo__desc_element__circle">
+
+                                    </div>
+                                    <div class="__whatWeDo__desc_element__text">
+                                        <p>Turnkey websites</p>
+                                    </div>
+                                </div>
+                                                                <!---__whatWeDo__small-element--->
+                                                                <div class="__whatWeDo__desc_element">
+                                    <div class="__whatWeDo__desc_element__circle">
+
+                                    </div>
+                                    <div class="__whatWeDo__desc_element__text">
+                                        <p>Turnkey websites</p>
+                                    </div>
+                                </div>
+                                                                <!---__whatWeDo__small-element--->
+                                                                <div class="__whatWeDo__desc_element">
+                                    <div class="__whatWeDo__desc_element__circle">
+
+                                    </div>
+                                    <div class="__whatWeDo__desc_element__text">
+                                        <p>Turnkey websites</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-----PORTFOLIO ---->
