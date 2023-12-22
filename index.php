@@ -61,12 +61,12 @@
                 <!---Additional DESC block-->
                 <div class="__main__additional_desc__block">
                     <p>
-                    Our company specializes in providing services to expand and improve business using modern digital services for both start-ups and enterprise businesses. 
+                        Our company specializes in providing services to expand and improve business using modern digital services for both start-ups and enterprise businesses.
                     </p>
-                <a href="#">
-                    <p>Our services</p>
-                    <img src="" alt="">
-                </a>
+                    <a href="#">
+                        <p>Our services</p>
+                        <img src="" alt="">
+                    </a>
                 </div>
 
             </div>
@@ -100,8 +100,8 @@
                                         <p>Turnkey websites</p>
                                     </div>
                                 </div>
-                                                                <!---__whatWeDo__small-element--->
-                                                                <div class="__whatWeDo__desc_element">
+                                <!---__whatWeDo__small-element--->
+                                <div class="__whatWeDo__desc_element">
                                     <div class="__whatWeDo__desc_element__circle">
 
                                     </div>
@@ -109,8 +109,8 @@
                                         <p>Turnkey websites</p>
                                     </div>
                                 </div>
-                                                                <!---__whatWeDo__small-element--->
-                                                                <div class="__whatWeDo__desc_element">
+                                <!---__whatWeDo__small-element--->
+                                <div class="__whatWeDo__desc_element">
                                     <div class="__whatWeDo__desc_element__circle">
 
                                     </div>
@@ -118,8 +118,8 @@
                                         <p>Turnkey websites</p>
                                     </div>
                                 </div>
-                                                                <!---__whatWeDo__small-element--->
-                                                                <div class="__whatWeDo__desc_element">
+                                <!---__whatWeDo__small-element--->
+                                <div class="__whatWeDo__desc_element">
                                     <div class="__whatWeDo__desc_element__circle">
 
                                     </div>
@@ -127,8 +127,8 @@
                                         <p>Turnkey websites</p>
                                     </div>
                                 </div>
-                                                                <!---__whatWeDo__small-element--->
-                                                                <div class="__whatWeDo__desc_element">
+                                <!---__whatWeDo__small-element--->
+                                <div class="__whatWeDo__desc_element">
                                     <div class="__whatWeDo__desc_element__circle">
 
                                     </div>
@@ -136,8 +136,8 @@
                                         <p>Turnkey websites</p>
                                     </div>
                                 </div>
-                                                                <!---__whatWeDo__small-element--->
-                                                                <div class="__whatWeDo__desc_element">
+                                <!---__whatWeDo__small-element--->
+                                <div class="__whatWeDo__desc_element">
                                     <div class="__whatWeDo__desc_element__circle">
 
                                     </div>
@@ -146,6 +146,12 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="__whatWeDo__button">
+                                <a href="#">
+                                    <p>learn More</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -153,13 +159,38 @@
 
             <!-----PORTFOLIO ---->
             <div class="content__portfolio">
+                <!---portfolio name and link--->
+                <div class="__portfolio__name__link">
+                    <div class="__portfolio__name">
+                        <img src="./style/imgs/Portfolio.png" alt="">
+                        <p>Our Latest Projects</p>
+                    </div>
+                    <div class="__portfolio__link">
+                        <a href="#">
+                            View All Projects
+                        </a>
+                    </div>
+                </div>
 
+                <!----portfolio ---->
+                <div class="__portfolio__container">
+                    <!--список продуктов--->
+                    <div class="__portfolio__list">
+
+                    </div>
+                    <!----ПРодукты детально---->
+                    <div class="__portfolio__elements">
+
+                    </div>
+                </div>
             </div>
 
 
             <!----OUR CLIENTS--->
             <div class="content__clients">
-
+                <div class="__clients__name">
+                    <img src="./style/imgs/our_clients.png" alt="">
+                </div>
             </div>
 
 
