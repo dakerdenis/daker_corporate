@@ -191,6 +191,12 @@
                 <div class="__clients__name">
                     <img src="./style/imgs/our_clients.png" alt="">
                 </div>
+
+                <div class="__clients__container">
+                    <div class="__clients__element">
+                        <img src="./style/imgs/client1.svg" alt="Client Procure.az">
+                    </div>
+                </div>
             </div>
 
 
