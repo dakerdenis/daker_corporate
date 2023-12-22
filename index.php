@@ -54,6 +54,20 @@
                     </div>
                 </div>
                 <!-----social block----->
+                <div class="__main__social__block">
+
+                </div>
+
+                <!---Additional DESC block-->
+                <div class="__main__additional_desc__block">
+                    <p>
+                    Our company specializes in providing services to expand and improve business using modern digital services for both start-ups and enterprise businesses. 
+                    </p>
+                <a href="#">
+                    <p>Our services</p>
+                    <img src="" alt="">
+                </a>
+                </div>
 
             </div>
 
