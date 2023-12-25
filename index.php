@@ -203,14 +203,39 @@
 
             <!----- WHY to CHOOSE US---->
             <div class="content__whyWe">
+                <div class="__whyWe__name">
+                    <div class="__whyWe__name_text">
+                        Why to choose us
+                    </div>
+                    <div class="__whyWe__name_line"></div>
+                </div>
 
+                <div class="__whyWe__container">
+                    <div class="__whyWe__element">
+                        <div class="__whyWe__element__wrapper">
+                            <div class="__whyWe__element__name">
+                                Profitable
+                            </div>
+                            <div class="__whyWe__element__desc">
+                                <p>We will always help you choose the set of services that will be optimal for you in terms of price/quality and based on your budget.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
 
             <!---OUR VISION--->
             <div class="content__ourVision">
-
+                <div class="__ourVision__name">
+                    <div class="__ourVision__name_text">
+                    About company and Team
+                    </div>
+                    <div class="__ourVision__name_image">
+                        <img src="./style/imgs/who_we_are.png" alt="">
+                    </div>
+                </div>
             </div>
 
 
