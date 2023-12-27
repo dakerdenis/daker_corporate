@@ -230,12 +230,45 @@
             <div class="content__ourVision">
                 <div class="__ourVision__name">
                     <div class="__ourVision__name_text">
-                    About company and Team
+                        About company and Team
                     </div>
                     <div class="__ourVision__name_image">
                         <img src="./style/imgs/who_we_are.png" alt="">
                     </div>
                 </div>
+
+                <div class="__ourVision__content">
+                    <div class="__ourVision__column">
+                        <div class="__ourVision__column__wrapper">
+                            <div class="__ourVision__column__text">
+                                <div class="__ourVision__column__text__name">
+                                    Our Vision
+                                </div>
+                                <div class="__ourVision__column__text__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates possimus ut cum. Aut excepturi perspiciatis autem ex, quibusdam deleniti veritatis sunt repellendus ut mollitia soluta eaque. Labore, voluptatum impedit?
+                                </div>
+                            </div>
+                            <div class="__ourVision__column__image">
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                        <div class="__ourVision__column__wrapper">
+                            <div class="__ourVision__column__image">
+                                <img src="" alt="">
+                            </div>
+                            <div class="__ourVision__column__text">
+                                <div class="__ourVision__column__text__name">
+                                    Our Mission
+                                </div>
+                                <div class="__ourVision__column__text__text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates possimus ut cum. Aut excepturi perspiciatis autem ex, quibusdam deleniti veritatis sunt repellendus ut mollitia soluta eaque. Labore, voluptatum impedit?
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
 
