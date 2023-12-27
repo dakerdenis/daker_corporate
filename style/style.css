@@ -308,9 +308,15 @@ color: #fff;
   position: absolute;
   bottom: 5px;
 }
-.__whatWeDo__container__block {}
+.__whatWeDo__container__block {
+  width: 100%;
+}
 
-.__whatWeDo__wrapper {}
+.__whatWeDo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  
+}
 
 .__whatWeDo__element {}
 
