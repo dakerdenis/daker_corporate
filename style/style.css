@@ -267,9 +267,28 @@ color: #fff;
   z-index: 500;
   background-color: royalblue;
 }
+.__whatWeDo__container{
+  z-index: 500;
+  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+
+}
+.__whatWeDo__placeholder{
+  width: 100%;
+  position: absolute;
+  z-index: 300;
+}
+.__whatWeDo__placeholder img{
+  width: 100%;
+}
+
 
 .__whatWeDo__name {}
 
+.__whatWeDo__line{
+
+}
 .__whatWeDo__container__block {}
 
 .__whatWeDo__wrapper {}
