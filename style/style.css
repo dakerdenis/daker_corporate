@@ -97,3 +97,168 @@ h6 {
 /**************************************/
 /**************************************/
 /**************************************/
+
+
+.main__wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 1) ;
+}
+.main__wrapper__placeholder {
+}
+.content__container {
+  width: 100%;
+  min-height: 100vh;
+}
+.content__main__block {
+  width: 100%;
+  min-height: 100vh;
+   position: relative;
+   background-color: rgb(40, 24, 100);
+}
+.__main__block__logo {
+  background-color: red;
+  position: absolute;
+  height: 100px;
+  top: 150px;
+}
+.__main__block__image {
+}
+.__main__block__text {
+  position: absolute;
+  width: 619px;
+  top: calc(50% - 131.5px);
+  left: calc(50% - 309.5px);
+  background-color: aquamarine;
+  height: 263px;
+}
+.__main__block__text_container {
+}
+.__main__social__block {
+}
+.__main__additional_desc__block {
+}
+.content__whatWeDo {
+}
+.__whatWeDo__name {
+}
+.__whatWeDo__container__block {
+}
+.__whatWeDo__wrapper {
+}
+.__whatWeDo__element {
+}
+.__whatWeDo__number {
+}
+.__whatWeDo__image {
+}
+.__whatWeDo__desc {
+}
+.__whatWeDo__desc_element {
+}
+.__whatWeDo__desc_element__circle {
+}
+.__whatWeDo__desc_element__text {
+}
+.__whatWeDo__button {
+}
+.content__portfolio {
+}
+.__portfolio__name__link {
+}
+.__portfolio__name {
+}
+.__portfolio__link {
+}
+.__portfolio__container {
+}
+.__portfolio__list {
+}
+.__portfolio__elements {
+}
+.content__clients {
+}
+.__clients__name {
+}
+.__clients__container {
+}
+.__clients__element {
+}
+.content__whyWe {
+}
+.__whyWe__name {
+}
+.__whyWe__name_text {
+}
+.__whyWe__name_line {
+}
+.__whyWe__container {
+}
+.__whyWe__element {
+}
+.__whyWe__element__wrapper {
+}
+.__whyWe__element__name {
+}
+.__whyWe__element__desc {
+}
+.content__ourVision {
+}
+.__ourVision__name {
+}
+.__ourVision__name_text {
+}
+.__ourVision__name_image {
+}
+.__ourVision__content {
+}
+.__ourVision__column {
+}
+.__ourVision__column__wrapper {
+}
+.__ourVision__column__text {
+}
+.__ourVision__column__text__name {
+}
+.__ourVision__column__text__text {
+}
+.__ourVision__column__image {
+}
+.content__team {
+}
+.__team__name {
+}
+.__team__container {
+}
+.__team__element {
+}
+.__team__element__image {
+}
+.__team__element__name_desc {
+}
+.__team__element__name {
+}
+.__team__element__desc {
+}
+.content__technologies {
+}
+.__technologies__container {
+}
+.content__contact {
+}
+.__contact__name {
+}
+.__contact__container {
+}
+.__contact__container__image {
+}
+.__contact__container__form {
+}
+.content__footer {
+}
+.__footer__wrapper {
+}
+.__footer__logo {
+}
+.__footer__social__wrapper {
+}
