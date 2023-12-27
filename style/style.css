@@ -265,7 +265,7 @@ color: #fff;
   min-height: 100vh;
   position: relative;
   z-index: 500;
-  background-color: royalblue;
+
 }
 .__whatWeDo__container{
   z-index: 500;
@@ -284,10 +284,29 @@ color: #fff;
 }
 
 
-.__whatWeDo__name {}
+.__whatWeDo__name {
+  margin-left: 45px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 49px;
 
+}
+.__whatWeDo__name p {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  
+}
 .__whatWeDo__line{
-
+  width: 110px;
+  height: 2px;
+  background-color: rgba(31, 157, 150, 1);
+  position: absolute;
+  bottom: 5px;
 }
 .__whatWeDo__container__block {}
 
@@ -295,6 +314,7 @@ color: #fff;
 
 .__whatWeDo__element {}
 
+.__whatWeDo__name__element{}
 .__whatWeDo__number {}
 
 .__whatWeDo__image {}
