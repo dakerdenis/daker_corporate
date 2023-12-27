@@ -269,12 +269,68 @@
                     </div>
                 </div>
 
+
+
             </div>
 
 
             <!----TEAM MEMBERS--->
             <div class="content__team">
+                <div class="__team__name">
+                    <img src="./style/imgs/logo_big_white.png" alt="">
+                </div>
 
+                <div class="__team__container">
+                    <div class="__team__element">
+                        <div class="__team__element__image">
+
+                        </div>
+                        <div class="__team__element__name_desc">
+                            <div class="__team__element__name"></div>
+                            <div class="__team__element__desc"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!---What technologies do we use ?---->
+
+            <div class="content__technologies">
+                <div class="__technologies__container">
+
+                </div>
+            </div>
+
+
+            <!-----CONTACT BLOCK------->
+            <div class="content__contact">
+                <div class="__contact__name">
+                    Leave your details for feedback or contact us in a way convenient for you.
+                </div>
+                <div class="__contact__container">
+                    <div class="__contact__container__image">
+
+                    </div>
+
+                    <div class="__contact__container__form">
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-----footer----->
+            <div class="content__footer">
+                <div class="__footer__wrapper">
+                    <div class="__footer__logo"></div>
+                    <div class="__footer__social__wrapper">
+
+                    </div>
+                </div>
             </div>
 
         </div>
