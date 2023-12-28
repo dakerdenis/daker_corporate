@@ -363,7 +363,7 @@ h6 {
 
   opacity: 0.95;
 
-  transition: height 0.3s ease;
+  transition: height 0.3s ease-in-out;
 
 
   position: absolute;
@@ -442,7 +442,7 @@ h6 {
   align-items: center;
 
   /*************/
-  transition: height 0.3s ease;
+  transition: height 0.3s ease-in-out;
 }
 
 .__whatWeDo__desc__elements {
@@ -463,7 +463,7 @@ h6 {
 
   opacity: 0;
   /*************/
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .__whatWeDo__desc_element__circle::before {
@@ -508,7 +508,7 @@ h6 {
   background: #1F9D96;
   opacity: 0;
   /*************/
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease-in-out;
 
 
 }
@@ -734,7 +734,7 @@ text-align: left;
 .content__clients__placeholder{
   position: absolute;
   z-index: 400;
-  top: -350px;
+  top: -150px;
 }
 .content__clients__wrapper{
   width: 1300px;
@@ -830,22 +830,85 @@ justify-content: center;
 
 /*************************************/
 .content__whyWe {
-  
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 600;
 }
 
-.__whyWe__name {}
 
-.__whyWe__name_text {}
+.content__whyWe__placeholder{
+  position: absolute;
+  right: 0;
+  top: -60vh;
+}
+.content__whyWe__placeholder img{
+  width: 100%;
+}
 
-.__whyWe__name_line {}
+.content__whyWe__wrapper{
+  width: 1320px;
+  margin:  auto;
+  color: #fff;
+}
+.__whyWe__name {
+  width: 360px;
+  height: 51px;
+  position: relative;
+}
 
-.__whyWe__container {}
+.__whyWe__name_text {
+font-size: 40px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
 
-.__whyWe__element {}
+}
 
-.__whyWe__element__wrapper {}
+.__whyWe__name_line {
+  width: 120px;
+  height: 2px;
+  background-color: #1F9D96;
+  position: absolute;
+  bottom: 5px;
+}
 
-.__whyWe__element__name {}
+.__whyWe__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 417px;
+  background-color: ;
+}
+
+.__whyWe__element {
+  width: 310px;
+  height: 400px;
+  
+
+  opacity: 0.95;
+  border-radius: 16px;
+  border: 1px solid #433E42;
+  background: url('./imgs/whyweblock.png'), lightgray 50% / cover no-repeat;
+  backdrop-filter: blur(15px);
+
+
+
+}
+
+.__whyWe__element__wrapper {
+  width: 100%;
+
+  padding: 83px 27px 0px 27px;
+}
+
+.__whyWe__element__name {
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
 
 .__whyWe__element__desc {}
 
