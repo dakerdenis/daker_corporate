@@ -543,14 +543,22 @@ h6 {
 
 .content__portfolio {
   position: relative;
-  width: 1300px;
+  width: 100%;
   margin: 0 auto;
   z-index: 600;
   min-height: 100vh;
 }
+.__portfolio__placeholder{
+  position: absolute;
+  z-index: 300;
+  right: 0;
+}
+
+
 
 .__portfolio__name__link {
-  width: 100%;
+  width: 1300px;
+  margin: 0 auto;
   border-bottom: 1px solid rgba(31, 157, 150, 0.4);
   display: flex;
   justify-content: space-between;
@@ -602,8 +610,10 @@ h6 {
 }
 
 .__portfolio__container {
+  width: 1300px;
+  margin: 0 auto;
   margin-top: 46px;
-  width: 100%;
+
 
   height: 534px;
 
@@ -615,21 +625,44 @@ h6 {
   width: 425px;
   height: 100%;
   overflow-y: auto;
-  background-color: #1F9D96;
+
 }
 .__portfolio__list__element {
   width: 100%;
   display: flex;
   align-items: center;
+
+  cursor: pointer;
 }
 .__portfolio__list__element__circle {
   width: 14px;
   height: 14px;
   border-radius: 50%;
+  margin-right: 15px;
   background: linear-gradient(135deg, #07E6D9 0%, #1C423F 89.58%);
-
+  position: relative;
+}
+.__portfolio__list__element__circle:before{
+  content: "";
+  width: 1px;
+  height: 28px;
+  position: absolute;
+  bottom: -28px;
+  right: 6.5px;
+  background-color: #fff;
+}
+.__portfolio__list__element__circle_last:before{
+  display: none;
 }
 .__portfolio__list__element__name {
+  color: #fff;
+
+font-size: 16px;
+font-weight: 300;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 
 
@@ -647,6 +680,11 @@ h6 {
 
   flex-wrap: wrap;
 
+  overflow-y: auto;
+
+}
+.__portfolio__elements__wrapper::-webkit-scrollbar{
+  width: 3px;
 }
 .__portfolio__elements__example{
   height: 253px;
@@ -654,7 +692,7 @@ h6 {
   border-radius: 16px;
   border: 1px solid #433E42;
   
-  
+  margin-bottom: 28px;
 
   background: linear-gradient(152.69deg, #433E42 3.41%, rgba(0, 0, 0, 0) 82.98%);
 
@@ -665,6 +703,15 @@ h6 {
 .__portfolio__elements__example:nth-child(1){
   margin-bottom: 28px;
 }
+.tab-content {
+  display: none;
+}
+.tab-content.show {
+  display: flex;
+}
+.tab.active .__portfolio__list__element__name{
+  font-weight: 600;
+}
 
 
 
@@ -675,22 +722,104 @@ h6 {
 
 
 
+/*******************************/
 
 
+.content__clients {
+  width: 100%;
+  position: relative;
+  z-index: 600;
+  min-height: 100vh;
+}
+.content__clients__placeholder{
+  position: absolute;
+  z-index: 400;
+  top: -350px;
+}
+.content__clients__wrapper{
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.__clients__name {
+  width: 100%;
+  text-align: center;
+}
+
+.__clients__container {
+  width: 100%;
+  height: 620px;
+  position: relative;
+  margin-top: 55px;
+  z-index: 600;
+}
+/********1***********/
+.__clients__element {
+  width: 200px;
+  height: 200px;
+background-image: url('./imgs/Ellipse55.png');
+background-repeat: no-repeat;
+background-size: cover;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.__clients__element img {
+  width: 70%;
+}
+.__clients__element1{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 30px;
+  left:  20px;
+}
+.__clients__element2{
+  width: 237px;
+  height: 237px;
+  position: absolute;
+  
+}
+.__clients__element3{
+  width: 149px;
+  height: 149px;
+
+  position: absolute;
+  top: calc(50% - 60px);
+  left: 150px;
+
+}
+
+.__clients__element4{
+  width: 193px;
+  height: 193px;
+
+  position: absolute;
+  top: 40px;
+  left: 290px;
+}
+
+.__clients__element5{
+  width: 237px;
+  height: 237px;
+
+  position: absolute;
+  bottom: 0px;
+  left: 270px;
+}
+
+.__clients__element6{
+  width: 149px;
+  height: 149px;
+
+  position: absolute;
+  top: 0px;
+  left: calc(50% - 75px)
+}
 
 
-
-
-
-
-
-.content__clients {}
-
-.__clients__name {}
-
-.__clients__container {}
-
-.__clients__element {}
 
 .content__whyWe {}
 

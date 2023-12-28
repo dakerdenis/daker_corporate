@@ -459,6 +459,10 @@
 
             <!-----PORTFOLIO ---->
             <div class="content__portfolio">
+
+                <div class="__portfolio__placeholder">
+                    <img src="./style/imgs/portfolio.svg" alt="">
+                </div>
                 <!---portfolio name and link--->
                 <div class="__portfolio__name__link">
                     <div class="__portfolio__name">
@@ -475,7 +479,7 @@
                     <!--список продуктов--->
                     <div class="__portfolio__list">
                         <!----PORTFOLIO ELEMENT ONE------->
-                        <div class="__portfolio__list__element">
+                        <div onclick="openTab('tab1')" class="__portfolio__list__element tab active" data-tab="tab1">
                             <div class="__portfolio__list__element__circle"></div>
                             <div class="__portfolio__list__element__name">
                                 <p>Turnkey websites</p>
@@ -483,7 +487,7 @@
                         </div>
 
                         <!----PORTFOLIO ELEMENT ONE------->
-                        <div class="__portfolio__list__element">
+                        <div onclick="openTab('tab2')" class="__portfolio__list__element tab" data-tab="tab2">
                             <div class="__portfolio__list__element__circle"></div>
                             <div class="__portfolio__list__element__name">
                                 <p>Online stores</p>
@@ -491,49 +495,100 @@
                         </div>
 
                         <!----PORTFOLIO ELEMENT ONE------->
-                        <div class="__portfolio__list__element">
-                            <div class="__portfolio__list__element__circle"></div>
+                        <div onclick="openTab('tab3')" class="__portfolio__list__element tab" data-tab="tab3">
+                            <div class="__portfolio__list__element__circle __portfolio__list__element__circle_last">
+                            </div>
                             <div class="__portfolio__list__element__name">
                                 <p>Business card websites</p>
                             </div>
                         </div>
 
-                        <!----PORTFOLIO ELEMENT ONE------->
-                        <div class="__portfolio__list__element">
-                            <div class="__portfolio__list__element__circle"></div>
-                            <div class="__portfolio__list__element__name">
-                                <p>Landing pages</p>
-                            </div>
-                        </div>
-                        <!----PORTFOLIO ELEMENT ONE------->
-                        <div class="__portfolio__list__element">
-                            <div class="__portfolio__list__element__circle"></div>
-                            <div class="__portfolio__list__element__name">
-                                <p>Website-based mobile applications</p>
-                            </div>
-                        </div>
+
                     </div>
                     <!----ПРодукты детально---->
                     <div class="__portfolio__elements">
-                        <div class="__portfolio__elements__wrapper">
+                        <div class="__portfolio__elements__wrapper tab-content show" id="tab1">
                             <!--------->
                             <div class="__portfolio__elements__example">
-                                    
+                                Pizda 1
                             </div>
                             <!--------->
                             <div class="__portfolio__elements__example">
-
+                                Pizda 1
                             </div>
                             <!--------->
                             <div class="__portfolio__elements__example">
-
+                                Pizda 1
                             </div>
                             <!--------->
                             <div class="__portfolio__elements__example">
-
+                                Pizda 1
                             </div>
-
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 1
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 1
+                            </div>
                         </div>
+
+                        <div class="__portfolio__elements__wrapper tab-content " id="tab2">
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 2
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 2
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 2
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 2
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 2
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 2
+                            </div>
+                        </div>
+
+                        <div class="__portfolio__elements__wrapper tab-content " id="tab3">
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 3
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 3
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 3
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 3
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 3
+                            </div>
+                            <!--------->
+                            <div class="__portfolio__elements__example">
+                                Pizda 3
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
             </div>
@@ -541,13 +596,41 @@
 
             <!----OUR CLIENTS--->
             <div class="content__clients">
-                <div class="__clients__name">
-                    <img src="./style/imgs/our_clients.png" alt="">
+
+                <div class="content__clients__placeholder">
+                    <img src="./style/imgs/clientsplaceholder.svg" alt="">
                 </div>
 
-                <div class="__clients__container">
-                    <div class="__clients__element">
-                        <img src="./style/imgs/client1.svg" alt="Client Procure.az">
+                <div class="content__clients__wrapper">
+                    <div class="__clients__name">
+                        <img src="./style/imgs/our_clients.png" alt="">
+                    </div>
+
+                    <div class="__clients__container">
+                        <div class="__clients__element __clients__element1">
+                            <img src="./style/imgs/client1.svg" alt="Client Procure.az">
+                        </div>
+
+                        <div class="__clients__element __clients__element2">
+                            <img src="./style/imgs/client1.svg" alt="Client Procure.az">
+                        </div>
+
+                        <div class="__clients__element __clients__element3">
+                            <img src="./style/imgs/client1.svg" alt="Client Procure.az">
+                        </div>
+
+                        <div class="__clients__element __clients__element4">
+                            <img src="./style/imgs/client1.svg" alt="Client Procure.az">
+                        </div>
+
+                        <div class="__clients__element __clients__element5">
+                            <img src="./style/imgs/client1.svg" alt="Client Procure.az">
+                        </div>
+
+                        <div class="__clients__element __clients__element6">
+                            <img src="./style/imgs/client1.svg" alt="Client Procure.az">
+                        </div>
+
                     </div>
                 </div>
             </div>
