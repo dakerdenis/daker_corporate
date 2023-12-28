@@ -110,7 +110,7 @@ h6 {
 
 .content__container {
   width: 100%;
-  min-height: 100vh;
+
   overflow: hidden;
 }
 
@@ -262,7 +262,7 @@ color: #fff;
 
 .content__whatWeDo {
   width: 100%;
-  min-height: 100vh;
+min-height: 150vh;
   position: relative;
   z-index: 500;
 
@@ -271,13 +271,17 @@ color: #fff;
   z-index: 500;
   position: absolute;
   width: 100%;
-  min-height: 100vh;
+
 
 }
 .__whatWeDo__placeholder{
   width: 100%;
   position: absolute;
   z-index: 300;
+
+  bottom: -50vh;
+
+
 }
 .__whatWeDo__placeholder img{
   width: 100%;
@@ -290,7 +294,7 @@ color: #fff;
   flex-direction: column;
   position: relative;
   height: 49px;
-
+  margin-bottom: 154px;
 }
 .__whatWeDo__name p {
   font-size: 40px;
@@ -313,27 +317,201 @@ color: #fff;
 }
 
 .__whatWeDo__wrapper {
+
+  
+  height: 510px;
+
+  max-width: 1302px;
+  margin: 0 auto;
+
+  margin-top: 23px;
   display: flex;
   justify-content: space-between;
+
+  position: relative;
   
+
 }
 
-.__whatWeDo__element {}
 
-.__whatWeDo__name__element{}
-.__whatWeDo__number {}
 
+/*******************************/
+.__whatWeDo__element {
+  border-radius: 16px;
+  width: 640px;
+  height: 510px;
+
+
+  background: url('./imgs/Rectangle\ 3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  opacity: 0.95;
+
+  transition: height 0.3s ease; 
+
+
+  position: absolute;
+  bottom: 0;
+}
+
+.__whatWeDo__wrapper2{
+  position: initial;
+}
+.__whatWeDo__wrapper2 .__whatWeDo__element{
+  position: initial;
+}
+
+
+
+
+.__whatWeDo__element:nth-child(2){
+  right: 0;
+}
+
+
+
+
+.__whatWeDo__element__placeholder{
+  width: 100%;
+  height: 100%;
+
+
+
+  padding: 11px 50px 35px 32px;
+  position: relative;
+}
+
+
+.__whatWeDo__number {
+  position: absolute;
+  right: 56px;
+  top: 10px;
+
+  color: rgba(255, 255, 255, 0.10);
+text-align: right;
+font-size: 128px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+
+.__whatWeDo__desc {
+  background-color: red;
+  width: 360px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
 .__whatWeDo__image {}
 
-.__whatWeDo__desc {}
+.__whatWeDo__name__element{
+  color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 29px;
+}
+.__whatWeDo__desc_element {
+  height: 21px;
+  display: flex;
+  align-items: center;
 
-.__whatWeDo__desc_element {}
+  /*************/
+  transition: height 0.3s ease;
+}
 
-.__whatWeDo__desc_element__circle {}
+.__whatWeDo__desc_element__circle {
 
-.__whatWeDo__desc_element__text {}
+  position: relative;
+  background: linear-gradient(135deg, #07E6D9 0%, #1C423F 89.58%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-right: 10px;
 
-.__whatWeDo__button {}
+  z-index: 200;
+
+  opacity: 0;
+  /*************/
+transition: opacity 0.3s ease;
+}
+.__whatWeDo__desc_element__circle::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 28px;
+  background-color: #fff;
+  right: 6.5px;
+  bottom: -200%;
+  z-index: 100;
+    /*************/
+
+}
+
+.__whatWeDo__desc_element__circle_last::before {
+  display: none;
+}
+
+.__whatWeDo__desc_element__text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.__whatWeDo__button {
+
+  position: absolute;
+  right: 56px;
+  bottom: 48px;
+  display: flex;
+padding: 12px 30px 12px 32px;
+justify-content: center;
+align-items: center;
+gap: 14px;
+border-radius: 40px;
+border: 1px solid #FFF;
+color: #FFF;
+background: #1F9D96;
+opacity: 0;
+/*************/
+transition: opacity 0.3s ease;
+
+
+}
+
+.__whatWeDo__element:hover{
+  height: 598px;
+}
+.__whatWeDo__element:hover .__whatWeDo__button{
+
+  opacity: 1;
+}
+
+.__whatWeDo__element:hover .__whatWeDo__desc_element__circle {
+  opacity: 1;
+}
+.__whatWeDo__element:hover .__whatWeDo__desc_element{
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
 
 .content__portfolio {}
 
