@@ -121,29 +121,33 @@ h6 {
   z-index: 400;
 }
 
-.__main__block__wrapper{
+.__main__block__wrapper {
   width: 100%;
   min-height: 100vh;
   position: absolute;
   z-index: 100;
 }
-.__main__image__placeholder{
+
+.__main__image__placeholder {
   position: absolute;
   z-index: 20;
 }
-.__main__image__placeholder2{
+
+.__main__image__placeholder2 {
   position: absolute;
   z-index: 20;
   right: 0;
   bottom: -25em;
 }
-.__main__image__placeholder3{
+
+.__main__image__placeholder3 {
   position: absolute;
   z-index: 20;
   right: 0px;
   bottom: -40em;
 }
-.__main__image__placeholder4{
+
+.__main__image__placeholder4 {
   position: absolute;
   z-index: 10;
   right: 89px;
@@ -158,7 +162,7 @@ h6 {
   left: 54px;
 }
 
-.__main__block__image img{
+.__main__block__image img {
   width: 100%;
 }
 
@@ -210,18 +214,20 @@ h6 {
   bottom: 50px;
   left: 54px;
 }
-.__main__additional_desc__block{
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-color: #fff;
-text-align: left;
+
+.__main__additional_desc__block {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #fff;
+  text-align: left;
 
 }
+
 .__main__additional_desc__block a {
 
-  margin-top:  33px;
+  margin-top: 33px;
 
   display: flex;
   align-items: center;
@@ -233,23 +239,25 @@ text-align: left;
   border-radius: 40px;
   border: 1px solid #fff;
   font-size: 13px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: center;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
 }
+
 .__main__additional_desc__block a p {
 
 
-font-size: 13px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: center;
-color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
 
 }
-.__main__additional_desc__block img{
+
+.__main__additional_desc__block img {
   height: 11px;
   width: 16px;
 }
@@ -262,19 +270,21 @@ color: #fff;
 
 .content__whatWeDo {
   width: 100%;
-min-height: 150vh;
+  min-height: 150vh;
   position: relative;
   z-index: 500;
 
 }
-.__whatWeDo__container{
+
+.__whatWeDo__container {
   z-index: 500;
   position: absolute;
   width: 100%;
 
 
 }
-.__whatWeDo__placeholder{
+
+.__whatWeDo__placeholder {
   width: 100%;
   position: absolute;
   z-index: 300;
@@ -283,7 +293,8 @@ min-height: 150vh;
 
 
 }
-.__whatWeDo__placeholder img{
+
+.__whatWeDo__placeholder img {
   width: 100%;
 }
 
@@ -296,6 +307,7 @@ min-height: 150vh;
   height: 49px;
   margin-bottom: 154px;
 }
+
 .__whatWeDo__name p {
   font-size: 40px;
   font-weight: 500;
@@ -303,22 +315,24 @@ min-height: 150vh;
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
-  
+
 }
-.__whatWeDo__line{
+
+.__whatWeDo__line {
   width: 110px;
   height: 2px;
   background-color: rgba(31, 157, 150, 1);
   position: absolute;
   bottom: 5px;
 }
+
 .__whatWeDo__container__block {
   width: 100%;
 }
 
 .__whatWeDo__wrapper {
 
-  
+
   height: 510px;
 
   max-width: 1302px;
@@ -329,7 +343,7 @@ min-height: 150vh;
   justify-content: space-between;
 
   position: relative;
-  
+
 
 }
 
@@ -345,35 +359,36 @@ min-height: 150vh;
   background: url('./imgs/Rectangle\ 3.png');
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 
   opacity: 0.95;
 
-  transition: height 0.3s ease; 
+  transition: height 0.3s ease;
 
 
   position: absolute;
   bottom: 0;
 }
 
-.__whatWeDo__wrapper2{
-  position: initial;
-}
-.__whatWeDo__wrapper2 .__whatWeDo__element{
+.__whatWeDo__wrapper2 {
   position: initial;
 }
 
+.__whatWeDo__wrapper2 .__whatWeDo__element {
+  position: initial;
+}
 
 
 
-.__whatWeDo__element:nth-child(2){
+
+.__whatWeDo__element:nth-child(2) {
   right: 0;
 }
 
 
 
 
-.__whatWeDo__element__placeholder{
+.__whatWeDo__element__placeholder {
   width: 100%;
   height: 100%;
 
@@ -390,11 +405,11 @@ min-height: 150vh;
   top: 10px;
 
   color: rgba(255, 255, 255, 0.10);
-text-align: right;
-font-size: 128px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  text-align: right;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 
@@ -408,17 +423,19 @@ line-height: normal;
   justify-content: flex-end;
 
 }
+
 .__whatWeDo__image {}
 
-.__whatWeDo__name__element{
+.__whatWeDo__name__element {
   color: #FFF;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-margin-top: 20px;
-margin-bottom: 29px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 29px;
 }
+
 .__whatWeDo__desc_element {
   height: 21px;
   display: flex;
@@ -427,10 +444,12 @@ margin-bottom: 29px;
   /*************/
   transition: height 0.3s ease;
 }
-.__whatWeDo__desc__elements{
+
+.__whatWeDo__desc__elements {
   min-height: 150px;
 
 }
+
 .__whatWeDo__desc_element__circle {
 
   position: relative;
@@ -444,8 +463,9 @@ margin-bottom: 29px;
 
   opacity: 0;
   /*************/
-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
+
 .__whatWeDo__desc_element__circle::before {
   content: "";
   position: absolute;
@@ -455,7 +475,7 @@ transition: opacity 0.3s ease;
   right: 6.5px;
   bottom: -200%;
   z-index: 100;
-    /*************/
+  /*************/
 
 }
 
@@ -478,25 +498,26 @@ transition: opacity 0.3s ease;
   right: 56px;
   bottom: 48px;
   display: flex;
-padding: 12px 30px 12px 32px;
-justify-content: center;
-align-items: center;
-gap: 14px;
-border-radius: 40px;
-border: 1px solid #FFF;
-color: #FFF;
-background: #1F9D96;
-opacity: 0;
-/*************/
-transition: opacity 0.3s ease;
+  padding: 12px 30px 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border-radius: 40px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  background: #1F9D96;
+  opacity: 0;
+  /*************/
+  transition: opacity 0.3s ease;
 
 
 }
 
-.__whatWeDo__element:hover{
+.__whatWeDo__element:hover {
   height: 598px;
 }
-.__whatWeDo__element:hover .__whatWeDo__button{
+
+.__whatWeDo__element:hover .__whatWeDo__button {
 
   opacity: 1;
 }
@@ -504,7 +525,8 @@ transition: opacity 0.3s ease;
 .__whatWeDo__element:hover .__whatWeDo__desc_element__circle {
   opacity: 1;
 }
-.__whatWeDo__element:hover .__whatWeDo__desc_element{
+
+.__whatWeDo__element:hover .__whatWeDo__desc_element {
   height: 40px;
 }
 
@@ -548,17 +570,17 @@ transition: opacity 0.3s ease;
 }
 
 
-.__portfolio__name p{
+.__portfolio__name p {
   position: absolute;
   left: 0;
   bottom: 0px;
 
   color: #FFF;
 
-font-size: 40px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .__portfolio__link {
@@ -569,14 +591,14 @@ line-height: normal;
   justify-content: center;
   border-radius: 40px;
   color: #fff;
-border: 1px solid #1F9D96;
+  border: 1px solid #1F9D96;
 
 
-color: #FFF;
-font-size: 13px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .__portfolio__container {
@@ -591,13 +613,76 @@ line-height: normal;
 
 .__portfolio__list {
   width: 425px;
-  background-color: #1C423F;
+  height: 100%;
+  overflow-y: auto;
+  background-color: #1F9D96;
 }
+.__portfolio__list__element {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.__portfolio__list__element__circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #07E6D9 0%, #1C423F 89.58%);
+
+}
+.__portfolio__list__element__name {
+}
+
+
+
 
 .__portfolio__elements {
   width: 830px;
-  background-color: #1F9D96;
+  height: 100%;
 }
+.__portfolio__elements__wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+
+}
+.__portfolio__elements__example{
+  height: 253px;
+  width: 401px;
+  border-radius: 16px;
+  border: 1px solid #433E42;
+  
+  
+
+  background: linear-gradient(152.69deg, #433E42 3.41%, rgba(0, 0, 0, 0) 82.98%);
+
+
+
+  
+}
+.__portfolio__elements__example:nth-child(1){
+  margin-bottom: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .content__clients {}
 
