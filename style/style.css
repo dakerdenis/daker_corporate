@@ -879,13 +879,16 @@ text-align: left;
   display: flex;
   justify-content: space-between;
   height: 417px;
-  background-color: ;
+margin-top: 79px;
+position: relative;
+
+
 }
 
 .__whyWe__element {
   width: 310px;
   height: 400px;
-  
+
 
   opacity: 0.95;
   border-radius: 16px;
@@ -894,13 +897,47 @@ text-align: left;
   backdrop-filter: blur(15px);
 
 
+position: relative;
 
+
+/*******/
+transition: transform 0.3s ease-in-out;
 }
 
-.__whyWe__element__wrapper {
+.__whyWe__element__placeholder{
   width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('./imgs/whyweblock_.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 500;
 
+  opacity: 0;
+  /*********/
+
+  transition: opacity 0.3s ease-in-out;
+}
+
+.__whyWe__element:hover .__whyWe__element__placeholder{
+  opacity: 1;
+}
+.__whyWe__element:hover {
+  transform: translateY(64px);
+}
+
+
+
+
+
+.__whyWe__element__wrapper {
+  position: absolute;
+  z-index: 600;
+  width: 100%;
+  height: 100%;
   padding: 83px 27px 0px 27px;
+  
+  /***********/
 }
 
 .__whyWe__element__name {
@@ -910,7 +947,16 @@ font-weight: 800;
 line-height: normal;
 }
 
-.__whyWe__element__desc {}
+.__whyWe__element__desc {
+
+  margin-top: 29px;
+
+  color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 149.4%; /* 20.916px */
+}
 
 .content__ourVision {}
 
