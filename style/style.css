@@ -1234,9 +1234,39 @@ font-weight: 400;
 line-height: normal;
 }
 
-.content__technologies {}
 
-.__technologies__container {}
+
+
+
+/*************************************************/
+.content__technologies {
+  width: 100%;
+  min-height: 100vh;
+  z-index: 600;position: relative;
+}
+
+.__technologies__container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.__technologies__name{
+  position: relative;
+}
+.__technologies__name p {
+  color: #FFF;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.__technologies__line{
+  width: 119px;
+  height: 2px;
+   background-color: #1F9D96;
+
+   position: absolute;
+   bottom: 5px;
+}
 
 .content__contact {}
 
