@@ -400,7 +400,7 @@ line-height: normal;
 
 
 .__whatWeDo__desc {
-  background-color: red;
+
   width: 360px;
   height: 100%;
   display: flex;
@@ -416,6 +416,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin-top: 20px;
 margin-bottom: 29px;
 }
 .__whatWeDo__desc_element {
@@ -426,7 +427,10 @@ margin-bottom: 29px;
   /*************/
   transition: height 0.3s ease;
 }
+.__whatWeDo__desc__elements{
+  min-height: 150px;
 
+}
 .__whatWeDo__desc_element__circle {
 
   position: relative;
@@ -510,16 +514,70 @@ transition: opacity 0.3s ease;
 
 
 
+/***********************************/
+/***********************************/
+/***********************************/
 
 
+.content__portfolio {
+  position: relative;
+  width: 1300px;
+  margin: 0 auto;
+  z-index: 600;
+  min-height: 100vh;
+}
 
-.content__portfolio {}
+.__portfolio__name__link {
+  width: 100%;
+  border-bottom: 1px solid rgba(31, 157, 150, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.__portfolio__name__link {}
+.__portfolio__name {
+  color: #fff;
+  height: 100px;
+  width: 426px;
 
-.__portfolio__name {}
+  position: relative;
 
-.__portfolio__link {}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.__portfolio__name p{
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+
+  color: #FFF;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.__portfolio__link {
+  width: 170px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  color: #fff;
+border: 1px solid #1F9D96;
+
+
+color: #FFF;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 
 .__portfolio__container {}
 
