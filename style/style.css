@@ -579,11 +579,25 @@ font-weight: 500;
 line-height: normal;
 }
 
-.__portfolio__container {}
+.__portfolio__container {
+  margin-top: 46px;
+  width: 100%;
 
-.__portfolio__list {}
+  height: 534px;
 
-.__portfolio__elements {}
+  display: flex;
+  justify-content: space-between;
+}
+
+.__portfolio__list {
+  width: 425px;
+  background-color: #1C423F;
+}
+
+.__portfolio__elements {
+  width: 830px;
+  background-color: #1F9D96;
+}
 
 .content__clients {}
 
