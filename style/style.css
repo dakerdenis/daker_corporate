@@ -1583,10 +1583,14 @@ h6 {
 
 .__contact__form__element__radio__name {}
 
-.__contact__form__terms {}
+.__contact__form__terms {
+  margin-top: 44px;
+}
+.__contact__form__terms__block{
 
+}
 .__contact__form__submit {
-  margin-top: 46px;
+  margin-top: 26px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1616,6 +1620,83 @@ h6 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-group label {
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.25px;
+}
+.form-group label  a {
+  color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.25px;
+text-decoration-line: underline;
+}
+.form-group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #1F9D96;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.form-group input:checked + label:after {
+  content: '';
+  display: block;
+  background-color: #1F9D96;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 5px;
+
+
+}
 
 
 

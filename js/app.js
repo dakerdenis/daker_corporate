@@ -16,3 +16,4 @@ function openTab(tabName) {
     }
     document.querySelector('.tab[data-tab="' + tabName + '"]').classList.add("active");
   }
+
