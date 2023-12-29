@@ -1538,16 +1538,18 @@ h6 {
   border: 1px solid #FFF;
   background: #FBFBFB;
   padding: 10px 21px;
-  
+
 
   color: #1F9D96;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 142.857% */
-letter-spacing: 0.25px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.25px;
 }
-.__contact__form__element__input input::placeholder{
+
+.__contact__form__element__input input::placeholder {
   color: #1F9D96;
 }
 
@@ -1555,32 +1557,62 @@ letter-spacing: 0.25px;
   margin-top: 14px;
   width: 100%;
 }
+
 .__contact__form__element__textarea textarea {
   width: 320px;
-height: 152px;
-flex-shrink: 0;
-border-radius: 8px;
+  height: 152px;
+  flex-shrink: 0;
+  border-radius: 8px;
 
-padding: 10px 21px;
+  padding: 10px 21px;
 
-color: #1F9D96;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 142.857% */
-letter-spacing: 0.25px;
+  color: #1F9D96;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 142.857% */
+  letter-spacing: 0.25px;
 }
-.__contact__form__element__textarea textarea::placeholder{
+
+.__contact__form__element__textarea textarea::placeholder {
   color: #1F9D96;
 }
+
 .__contact__form__element__radio {}
 
 .__contact__form__element__radio__name {}
 
 .__contact__form__terms {}
 
-.__contact__form__submit {}
+.__contact__form__submit {
+  margin-top: 46px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.__contact__form__submit button {
+  width: 252px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 40px;
+  border: 1px solid #FFF;
+  background: #1F9D96;
+
+
+  color: #FFF;
+  text-align: center;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
 
 
