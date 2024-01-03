@@ -1441,15 +1441,34 @@ h6 {
 
 .content__contact__placeholder {
   position: absolute;
-  right: 0;
-  width: 100%;
+
   z-index: 500;
 }
+.content__contact__placeholder1{
+  position: absolute;
+  left: calc( 0%);
 
+}
+.content__contact__placeholder2{
+  right: 20%;
+  bottom: 15%;
+
+
+}
+.content__contact__placeholder3{
+  left: calc(0%);
+
+}
+.content__contact__placeholder4{
+  right: -300px;
+
+}
 .content__contact__wrapper {
+  position: relative;
   max-width: 1300px;
   margin: 0 auto;
   height: 100%;
+  z-index: 600;
 }
 
 .__contact__name {
@@ -1583,9 +1602,7 @@ h6 {
   color: #1F9D96;
 }
 
-.__contact__form__element__radio {}
 
-.__contact__form__element__radio__name {}
 
 .__contact__form__terms {
   margin-top: 44px;
@@ -1625,6 +1642,78 @@ h6 {
 
 
 
+
+
+
+
+.__contact__form__element__radio {}
+
+.__contact__form__element__radio__name {
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-align: left;
+margin-top: 26px;
+color: #fff;
+margin-bottom: 16px;
+}
+.__contact__form__radio__container{
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+    /* Style for custom radio buttons */
+    .custom-radio {
+      display: flex;
+      align-items: center;
+
+
+
+    }
+
+    .custom-radio input[type="radio"] {
+      display: none;
+    }
+
+    .custom-radio label {
+      position: relative;
+      padding-left: 30px;
+
+color: #fff;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+      cursor: pointer;
+      font-size: 16px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .custom-radio label:before {
+      content: '';
+      position: absolute;
+      left: 0;
+
+      width: 20px;
+      height: 20px;
+      border: 2px solid #333;
+      border-radius: 50%;
+      background-color: #fff;
+      transition: background-color 0.3s;
+    }
+
+    .custom-radio input[type="radio"]:checked + label:before {
+      background-color: #4CAF50; /* Change this color for the selected state */
+      border-color: #4CAF50;
+    }
 
 
 
