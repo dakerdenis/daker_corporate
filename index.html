@@ -567,7 +567,7 @@
 
                         <div class="__portfolio__elements__wrapper tab-content " id="tab2">
                             <!--------->
-                            <div class="__portfolio__elements__example">
+                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/seit1.png')">
                                 <div      class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/seit1.png" class="openImage" alt="Open Image 1">
 
@@ -580,7 +580,7 @@
                                 </div>
                             </div>
                             <!--------->
-                            <div class="__portfolio__elements__example">
+                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/seit2.png')">
                                 <div      class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/seit2.png" class="openImage" alt="Open Image 2">
 
@@ -626,7 +626,12 @@
             </div>
 
 
-
+            <div id="modal">
+                <div id="modal-content">
+                    <span id="close-btn" onclick="closeModal()">&times;</span>
+                    <img id="modal-image" src="" alt="Modal Image">
+                </div>
+            </div>
 
 
 
