@@ -1273,10 +1273,12 @@ bottom: 24%;
 
   font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
 }
-
+.__ourVision__column__text__text p{
+  margin-bottom: 20px;
+}
 .__ourVision__column__text__text2 {
   text-align: right;
 }
@@ -2166,10 +2168,53 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
   margin-top: 20vh;
 }
 
+.__clients__container {
+  height: 530px;
+}
+.__clients__element {
+  transform: scale(0.9);
+}
+.__clients__element3 {
+  left: 173px;
+}
 .content__whyWe{
   margin-top: 21vh;
 }
 .content__whyWe__placeholder {
   top: -48px;
+}
+
+.content__ourVision__wrapper{
+  margin-top: 20vh;
+}
+.__ourVision__column__text {
+  width: 600px;
+}
+.content__team{
+  margin-top: 24vh;
+}
+.content__team__wrapper{
+  width: 1200px;
+}
+.__team__container{
+  margin-top: 110px;
+}
+.__team__name{
+  transform: scale(0.8);
+}
+.content__technologies{
+  margin-top: 15vh;
+}
+.__technologies__container__elements{
+  height: 500px;
+  width: 1180px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.__technologies__element{
+  transform: scale(0.8);
+}
+.content__contact{
+  margin-top: 20vh;
 }
 }
