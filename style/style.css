@@ -940,6 +940,52 @@ line-height: 149.4%;
 }
 
 
+.__clients__element7 {
+  width: 193px;
+  height: 193px;
+
+  position: absolute;
+  top: 40%;
+  left: calc(50% - 130px)
+}
+
+.__clients__element8 {
+  width: 193px;
+  height: 193px;
+
+  position: absolute;
+  top: 20%;
+  left: calc(50% + 100px)
+}
+
+
+
+.__clients__element9 {
+  width: 237px;
+  height: 237px;
+
+  position: absolute;
+  right: 5%;
+top: 0;
+}
+
+.__clients__element10 {
+  width: 149px;
+  height: 149px;
+
+  position: absolute;
+  right: 30%;
+bottom: 10%;
+}
+
+.__clients__element11 {
+  width: 193px;
+  height: 193px;
+
+  position: absolute;
+  right: 10%;
+bottom: 24%;
+}
 
 
 
