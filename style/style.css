@@ -2464,5 +2464,77 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
   margin: 0 auto;
 }
 
+.content__clients__wrapper{
+  width: 330px;
+}
+.__clients__name img{
+  width: 100%;
+}
+.__clients__element{
+  transform: scale(0.6);
+}
+.__clients__container{
 
+  height: 620px;
+}
+.__clients__element1{
+  left: 50px;
+  bottom: -50px;
+}
+.__clients__element2{
+  left: -50px;
+  top: -46px;
+}
+.__clients__element3 {
+  left: 210px;
+  top: calc(50% - 44px);
+}
+.__clients__element4 {
+  top: -32px;
+  left: 153px;
+}
+.__clients__element5 {
+  bottom: 36px;
+  right: -46px;
+  left: initial;
+}
+.__clients__element6{
+  top: 84px;
+}
+.__clients__element7 {
+  top: 42%;
+  left: calc(50% - 88px);
+}
+.__clients__element8{
+  left: calc(50% + 8px);
+}
+.__clients__element9 {
+  left: -10%;
+  top: 131px;
+}
+.__clients__element10{
+  left: -8%;
+  bottom: 5%;
+}
+.__clients__element11{
+  left: -13%;
+  bottom: 20%;
+}
+.content__whyWe {
+  margin-top: 16vh;
+}
+.content__whyWe__placeholder {
+  top: -100px;
+}
+.content__whyWe__wrapper {
+  width: 330px;
+}
+.__whyWe__container{
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+.__whyWe__element:hover {
+  transform: translateY(32px) scale(0.9);
+}
 }
