@@ -2070,7 +2070,10 @@ cursor: pointer;
 background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
 }
 
-
+.__portfolio__link__mobile{
+  display: none;
+  visibility: hidden;
+}
 @media only screen and (max-width: 1480px) {
   .__footer__wrapper {
     height: 190px;
@@ -2272,6 +2275,68 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
 }
 
 @media only screen and (max-width: 1050px) {
+  .__main__block__text{
+    width: 320px;
+    margin: 0 auto;
+    left: calc(50% - 160px);
+    height: 190px;
+  }
+  .__main__block__text_container p:nth-child(1){
+    font-size: 15px;
+  }
+  .__main__block__text_container p:nth-child(2){
+    font-size: 16px;
+  }
+
+  .__main__block__text_container p:nth-child(3){
+    font-size: 23px;
+  }
+
+  .__main__block__text_container p:nth-child(4){
+    font-size: 26px;
+  }
+  .__main__block__text_container img{
+    width: 100%;
+  }
+  .__main__block__logo {
+    width: 130px;
+    top: 25px;
+    left: 25px;
+  }
+  .__main__additional_desc__block{
+    left: 25px;
+    bottom: 80px;
+    width: 340px;
+
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .__main__additional_desc__block a {
+    margin-top: 20px;
+  }
+  .content__whatWeDo {
+    margin-top: 174px;
+  }
+  .__main__image__placeholder4 {
+    transform: scale(0.8);
+    right: -72px;
+  }
+
+
+
+
+
+
+
+
+
+
+  .__whatWeDo__name {
+    margin-bottom: 63px;
+  }
+  .__whatWeDo__element:hover .__whatWeDo__desc_element{
+    height: initial;
+  }
   .__whatWeDo__wrapper {
     height: initial;
     min-height: 510px;
@@ -2320,7 +2385,11 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
     bottom: 22px;
   }
   .__whatWeDo__desc_element{
-    height: 35px;
+
+  }
+
+  .content__portfolio {
+    margin-top: 550px;
   }
   .__whatWeDo__desc_element__text p {
     font-size: 13px;
@@ -2340,6 +2409,60 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
   }
   .__portfolio__container{
     height: initial;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
+  .content__whatWeDo {
+
+    min-height: 182vh;
+}
+
+.__portfolio__name__link {
+  width: 330px;
+  flex-direction: column;
+}
+.__portfolio__link{
+  display: none;
+  visibility: hidden;
+}
+.__portfolio__name{
+  width: 100%;
+}
+.__portfolio__name p {
+  font-size: 30px;
+  bottom: 7px;
+}
+.__portfolio__name img{
+  width: 100%;
+}
+.__portfolio__container {
+  width: 340px;
+}
+.__portfolio__list{
+  width: 100%;
+}
+.__portfolio__elements {
+  width: 100%;
+}
+.__portfolio__link__mobile{
+  visibility: visible;
+  display: block;
+  width: 170px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  color: #fff;
+  border: 1px solid #1F9D96;
+
+
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+
 }
