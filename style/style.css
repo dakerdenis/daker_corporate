@@ -2594,7 +2594,7 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
 }
 .content__team__wrapper{
   max-width: 330px;
-  background-color: #ffffff0e;
+
 }
 .__team__name{
   transform: initial;
@@ -2612,8 +2612,44 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
 }
 .__team__element {
   width: 150px;
-  background-color: rgba(12, 100, 46, 0.705);
-  margin-bottom: 10px;
+
+  margin-bottom: 30px;
   overflow: hidden;
+  height: 214.5px;
+}
+.__team__element__image{
+  width: 149px;
+  height: 149px;
+}
+.__team__element__name{
+  transform: scale(0.7);
+  height: 30px;
+}
+.__team__element__name_desc {
+  margin-top: 0px;
+}
+.__team__element__name p{
+  bottom: -15px;
+}
+.__team__element__desc {
+  font-size: 9px;
+  margin-top: 9px;
+}
+.content__team {
+  margin-top: 150px;
+  min-height: initial;
+}
+
+.__technologies__container{
+  max-width: 330px;
+}
+.__technologies__name p {
+  font-size: 28px;
+}
+.__technologies__container__elements{
+  width: 330px;
+}
+.content__technologies__placeholder {
+  top: -64px;
 }
 }
