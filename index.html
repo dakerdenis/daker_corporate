@@ -25,7 +25,8 @@
     <meta http-equiv="content-security-policy" content="your-content-security-policy">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
@@ -639,9 +640,9 @@
                                 Pizda 3
                             </div>
                         </div>
-                            <a href="#" class="__portfolio__link__mobile">
-                                <p>View All Projects</p>
-                            </a>
+                        <a href="#" class="__portfolio__link__mobile">
+                            <p>View All Projects</p>
+                        </a>
 
                     </div>
                 </div>
@@ -755,7 +756,7 @@
                         <div class="__whyWe__name_line"></div>
                     </div>
 
-                    <div class="__whyWe__container">
+                    <div class="__whyWe__container __whyWe__container__pc">
 
                         <div class="__whyWe__element">
                             <div class="__whyWe__element__placeholder">
@@ -827,6 +828,87 @@
 
 
 
+                    </div>
+
+
+                    <div class="__whyWe__container__mobile">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="__whyWe__element">
+                                        <div class="__whyWe__element__placeholder">
+
+                                        </div>
+                                        <div class="__whyWe__element__wrapper">
+                                            <div class="__whyWe__element__name">
+                                                Profitable
+                                            </div>
+                                            <div class="__whyWe__element__desc">
+                                                <p>We will always help you choose the set of services that will be
+                                                    optimal for you
+                                                    in
+                                                    terms of price/quality and based on your budget.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="__whyWe__element">
+                                        <div class="__whyWe__element__placeholder">
+
+                                        </div>
+                                        <div class="__whyWe__element__wrapper">
+                                            <div class="__whyWe__element__name">
+                                                Profitable
+                                            </div>
+                                            <div class="__whyWe__element__desc">
+                                                <p>We will always help you choose the set of services that will be
+                                                    optimal for you
+                                                    in
+                                                    terms of price/quality and based on your budget.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="__whyWe__element">
+                                        <div class="__whyWe__element__placeholder">
+
+                                        </div>
+                                        <div class="__whyWe__element__wrapper">
+                                            <div class="__whyWe__element__name">
+                                                Profitable
+                                            </div>
+                                            <div class="__whyWe__element__desc">
+                                                <p>We will always help you choose the set of services that will be
+                                                    optimal for you
+                                                    in
+                                                    terms of price/quality and based on your budget.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">  
+                                    <div class="__whyWe__element">
+                                        <div class="__whyWe__element__placeholder">
+
+                                        </div>
+                                        <div class="__whyWe__element__wrapper">
+                                            <div class="__whyWe__element__name">
+                                                Profitable
+                                            </div>
+                                            <div class="__whyWe__element__desc">
+                                                <p>We will always help you choose the set of services that will be
+                                                    optimal for you
+                                                    in
+                                                    terms of price/quality and based on your budget.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1316,7 +1398,17 @@
         </div>
 
     </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            freeMode: true,
+        });
+    </script>
 
     <script src="./js/app.js"></script>
 </body>
