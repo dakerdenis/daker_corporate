@@ -56,8 +56,34 @@
 
         <!---REST CONTAINER---->
         <div class="content__container">
+
+            <div class="header__circle__burger">
+                <img src="./style/imgs/burger_icon.svg" alt="">
+            </div>
+
+            <div class="expanded-block-container" id="expandedBlockContainer">
+                <div class="expanded-block">
+                    <!-- Your links go here -->
+                    <p data-target="home">Home</p>
+                    <p data-target="what-we-do">What we Do</p>
+                    <p data-target="portfolio">Portfolio</p>
+                    <p data-target="our-clients">Our Clients</p>
+                    <p data-target="why-choose-us">Why choose Us</p>
+                    <p data-target="about-us">About Us</p>
+                    <p data-target="contacts">Contacts</p>
+                    <!-- Add more links as needed -->
+                </div>
+            </div>
+
+
+
+
+
+
             <!----MAIN container----->
-            <div class="content__main__block">
+            <div id="home" class="content__main__block">
+
+
                 <div class="__main__block__wrapper">
                     <!---LOGO--->
                     <div class="__main__block__logo">
@@ -109,7 +135,7 @@
             </div>
 
             <!---SERVICES----->
-            <div class="content__whatWeDo">
+            <div id="what-we-do" class="content__whatWeDo">
                 <div class="__whatWeDo__container">
                     <div class="__whatWeDo__name">
                         <p>What we do</p>
@@ -459,7 +485,7 @@
             </div>
 
             <!-----PORTFOLIO ---->
-            <div class="content__portfolio">
+            <div id="portfolio" class="content__portfolio">
 
                 <div class="__portfolio__placeholder">
                     <img src="./style/imgs/portfolio.svg" alt="">
@@ -546,7 +572,8 @@
                             <!--------->
                             <div class="__portfolio__elements__example">
 
-                                <a target="_blank" class="__portfolio__elements__example_web" href="https://parus86.ru/">
+                                <a target="_blank" class="__portfolio__elements__example_web"
+                                    href="https://parus86.ru/">
                                     <img src="./style/imgs/seit3.png" alt="">
 
                                     <div class="__portfolio__placeholder__text">
@@ -561,7 +588,8 @@
                             </div>
                             <!--------->
                             <div class="__portfolio__elements__example">
-                                <a target="_blank" class="__portfolio__elements__example_web" href="https://aile.a-group.az/">
+                                <a target="_blank" class="__portfolio__elements__example_web"
+                                    href="https://aile.a-group.az/">
                                     <img src="./style/imgs/seit4.png" alt="">
 
                                     <div class="__portfolio__placeholder__text">
@@ -648,7 +676,8 @@
 
                         <div class="__portfolio__elements__wrapper tab-content " id="tab3">
                             <!--------->
-                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/portfolio/pets.png')">
+                            <div class="__portfolio__elements__example"
+                                onclick="openModal('./style/imgs/portfolio/pets.png')">
                                 <div
                                     class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/portfolio/pets.png" class="openImage" alt="Open Image 1">
@@ -665,7 +694,8 @@
                                 </div>
                             </div>
                             <!--------->
-                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/portfolio/yazl.png')">
+                            <div class="__portfolio__elements__example"
+                                onclick="openModal('./style/imgs/portfolio/yazl.png')">
                                 <div
                                     class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/portfolio/yazl.png" class="openImage" alt="Open Image 2">
@@ -681,7 +711,8 @@
                                 </div>
                             </div>
                             <!--------->
-                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/portfolio/cakes.png')">
+                            <div class="__portfolio__elements__example"
+                                onclick="openModal('./style/imgs/portfolio/cakes.png')">
                                 <div
                                     class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/portfolio/cakes.png" class="openImage" alt="Open Image 2">
@@ -697,7 +728,8 @@
                                 </div>
                             </div>
                             <!--------->
-                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/portfolio/asus.jpg')">
+                            <div class="__portfolio__elements__example"
+                                onclick="openModal('./style/imgs/portfolio/asus.jpg')">
                                 <div
                                     class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/portfolio/asus.jpg" class="openImage" alt="Open Image 2">
@@ -717,7 +749,8 @@
 
                         <div class="__portfolio__elements__wrapper tab-content " id="tab4">
                             <!--------->
-                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/portfolio/flora.png')">
+                            <div class="__portfolio__elements__example"
+                                onclick="openModal('./style/imgs/portfolio/flora.png')">
                                 <div
                                     class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/portfolio/flora.png" class="openImage" alt="Open Image 1">
@@ -734,7 +767,8 @@
                                 </div>
                             </div>
                             <!--------->
-                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/portfolio/joga.png')">
+                            <div class="__portfolio__elements__example"
+                                onclick="openModal('./style/imgs/portfolio/joga.png')">
                                 <div
                                     class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/portfolio/joga.png" class="openImage" alt="Open Image 2">
@@ -750,7 +784,8 @@
                                 </div>
                             </div>
                             <!--------->
-                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/portfolio/x-ray.png')">
+                            <div class="__portfolio__elements__example"
+                                onclick="openModal('./style/imgs/portfolio/x-ray.png')">
                                 <div
                                     class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/portfolio/x-ray.jpg" class="openImage" alt="Open Image 2">
@@ -766,7 +801,8 @@
                                 </div>
                             </div>
                             <!--------->
-                            <div class="__portfolio__elements__example" onclick="openModal('./style/imgs/portfolio/weby.png')">
+                            <div class="__portfolio__elements__example"
+                                onclick="openModal('./style/imgs/portfolio/weby.png')">
                                 <div
                                     class="openImage __portfolio__elements__example_web __portfolio__elements__example_desgin">
                                     <img src="./style/imgs/portfolio/weby.png" class="openImage" alt="Open Image 2">
@@ -837,7 +873,7 @@
 
 
             <!----OUR CLIENTS--->
-            <div class="content__clients">
+            <div id="our-clients" class="content__clients">
 
                 <div class="content__clients__placeholder">
                     <img src="./style/imgs/clientsplaceholder.svg" alt="">
@@ -901,7 +937,7 @@
 
 
             <!----- WHY to CHOOSE US---->
-            <div class="content__whyWe">
+            <div id="why-choose-us" class="content__whyWe">
 
 
                 <div class="content__whyWe__placeholder">
@@ -1076,7 +1112,7 @@
 
 
             <!---OUR VISION--->
-            <div class="content__ourVision">
+            <div id="about-us" class="content__ourVision">
 
                 <div class="__ourVision__placeholder content__ourVision__placeholder1 ">
                     <img src="./style/imgs/aboutcompany.svg" alt="">
@@ -1341,7 +1377,7 @@
 
 
             <!-----CONTACT BLOCK------->
-            <div class="content__contact">
+            <div id="contacts" class="content__contact">
                 <div class="content__contact__placeholder content__contact__placeholder1">
                     <img src="./style/imgs/contact_elips.svg" alt="">
                 </div>
