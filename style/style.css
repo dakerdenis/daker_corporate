@@ -977,8 +977,13 @@ line-height: 149.4%;
   font-size: 20px;
 }
 
-
-
+.modal-content__image {
+  width: 1200px;
+  height: 600px;
+}
+.modal-content__image img {
+  width: 100%;
+}
 
 
 
