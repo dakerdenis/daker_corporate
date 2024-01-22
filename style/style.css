@@ -147,7 +147,8 @@ box-shadow: -9px 11px 13px -1px rgba(0, 0, 0, 0.40);
   top: 150px;
   right: 0;
   width: 0;
-  height: 400px;
+  height: 500px;
+
   overflow: hidden;
 
   transition: width 0.3s ease-in-out;
@@ -170,7 +171,7 @@ box-shadow: -9px 11px 13px -1px rgba(0, 0, 0, 0.40);
 .expanded-block p {
   color: #FFF;
 text-align: right;
-font-family: Montserrat;
+
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -185,7 +186,7 @@ cursor: pointer;
 .expanded-block a {
   color: #FFF;
   text-align: right;
-  font-family: Montserrat;
+
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
