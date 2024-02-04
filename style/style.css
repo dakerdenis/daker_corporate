@@ -237,6 +237,8 @@ cursor: pointer;
 
 
 
+
+
 .expanded-block p:nth-child(4):hover::before{
   content: "";
   width:  110px;
@@ -248,7 +250,10 @@ cursor: pointer;
   background-color: #1F9D96;
 }
 
-
+.expanded-block p:nth-child(4){
+display: none;
+visibility: hidden;
+}
 
 
 .expanded-block p:nth-child(5):hover::before{
@@ -826,6 +831,9 @@ cursor: pointer;
   /****!   **********************/
     /****!   **********************/
       /****!   **********************/
+
+      display: none;
+      visibility: hidden;
 }
 
 .__portfolio__container {
@@ -1102,6 +1110,14 @@ line-height: 149.4%;
   position: relative;
   z-index: 600;
   min-height: 100vh;
+
+
+  /***! ******************************/
+    /***! ******************************/
+      /***! ******************************/
+
+      display: none;
+      visibility: hidden;
 }
 
 .content__clients__placeholder {
