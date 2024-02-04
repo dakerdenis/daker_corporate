@@ -443,6 +443,12 @@ cursor: pointer;
   line-height: 16px;
   letter-spacing: 0em;
   text-align: center;
+
+
+
+  /**! ************************/
+  display: none;
+  visibility: hidden;
 }
 
 .__main__additional_desc__block a p {
@@ -711,6 +717,12 @@ cursor: pointer;
   transition: opacity 0.3s ease-in-out;
 
 
+
+  /**!  *******************/
+    /**!  *******************/
+      /**!  *******************/
+      display: none;
+
 }
 
 .__whatWeDo__element:hover {
@@ -808,6 +820,12 @@ cursor: pointer;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+
+
+
+  /****!   **********************/
+    /****!   **********************/
+      /****!   **********************/
 }
 
 .__portfolio__container {
