@@ -291,7 +291,10 @@ visibility: hidden;
   background-color: #1F9D96;
 }
 
-
+.expanded-block a {
+  display: none;
+  visibility: hidden;
+}
 
 
 
