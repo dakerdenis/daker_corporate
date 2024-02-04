@@ -866,6 +866,8 @@ visibility: hidden;
   cursor: pointer;
 }
 
+
+
 .__portfolio__list__element__circle {
   width: 14px;
   height: 14px;
@@ -885,10 +887,18 @@ visibility: hidden;
   background-color: #fff;
 }
 
+
+.__portfolio__list__element:nth-child(5){
+  display: none;
+  visibility: hidden;
+}
 .__portfolio__list__element__circle_last:before {
   display: none;
 }
-
+.__portfolio__list__element:nth-child(4) .__portfolio__list__element__circle:before{
+  display: none;
+  visibility: hidden;
+}
 .__portfolio__list__element__name {
   color: #fff;
 
