@@ -484,7 +484,7 @@ visibility: hidden;
 
 .content__whatWeDo {
   width: 100%;
-  min-height: 1000px;
+  min-height: 1300px;
   position: relative;
   z-index: 500;
 
@@ -765,8 +765,9 @@ visibility: hidden;
   position: relative;
   width: 100%;
   margin: 0 auto;
-  z-index: 600;
-  min-height: 100vh;
+  z-index: 800;
+  margin-bottom: 120px;
+  margin-top: 100px;
 }
 
 .__portfolio__placeholder {
@@ -1306,7 +1307,7 @@ bottom: 24%;
 .content__whyWe__placeholder {
   position: absolute;
   right: 0;
-  top: -60vh;
+  top: -200px;
 }
 
 .content__whyWe__placeholder img {
@@ -2614,8 +2615,58 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
   bottom: -200px;
 }
 .content__portfolio{
-  margin-top: 100px ;
+  margin-top: 0px ;
 }
+
+
+.content__whyWe{
+  margin-top: 0;
+}
+
+
+
+
+
+.__portfolio__name__link{
+  width: 1150px;
+}
+.__portfolio__container {
+  width: 1150px;
+}
+.content__whyWe__wrapper{
+  width: 1150px;
+}
+.content__ourVision__wrapper{
+  width: 1150px;
+}
+.__ourVision__column__image{
+  justify-content: end;
+}
+.__ourVision__column__text:nth-child(2){
+  width: 450px;
+}
+.__ourVision__column__text:nth-child(2) .__ourVision__column__image{
+  justify-content: start;
+}
+.__technologies__container{
+  width: 1150px;
+}
+.header__circle__burger{
+  right: 40px;
+  top: 40px;
+}
+}
+@media only screen and (max-width: 1290px){
+  .__whatWeDo__element {
+    width: 500px;
+    height: 390px;
+  }
+  .content__whatWeDo{
+    min-height: 1100px;
+  }
+  .__team__name{
+    transform: scale(0.65);
+  }
 }
 
 @media only screen and (max-width: 1050px) {
