@@ -2587,6 +2587,29 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
 .__footer__wrapper {
   height: 170px;
 }
+
+.__main__additional_desc__block{
+  bottom: -50px;
+}
+
+.content__whatWeDo{
+  margin-top: 100px;
+}
+.__whatWeDo__wrapper{
+  margin-top: 0;
+}
+.__whatWeDo__name{
+  margin-bottom: 50px;
+}
+.__whatWeDo__wrapper2{
+  margin-top: 20px;
+}
+.__main__image__placeholder4 {
+  bottom: -16em;
+}
+.__main__image__placeholder3{
+  bottom: -38em;
+}
 }
 
 @media only screen and (max-width: 1050px) {
