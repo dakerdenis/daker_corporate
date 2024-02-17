@@ -484,7 +484,7 @@ visibility: hidden;
 
 .content__whatWeDo {
   width: 100%;
-  min-height: 150vh;
+  min-height: 1300px;
   position: relative;
   z-index: 500;
 
@@ -765,8 +765,9 @@ visibility: hidden;
   position: relative;
   width: 100%;
   margin: 0 auto;
-  z-index: 600;
-  min-height: 100vh;
+  z-index: 800;
+  margin-bottom: 120px;
+  margin-top: 100px;
 }
 
 .__portfolio__placeholder {
@@ -920,7 +921,7 @@ visibility: hidden;
 
 .__portfolio__elements__wrapper {
   width: 100%;
-  height: 100%;
+
   display: flex;
   justify-content: space-between;
 
@@ -949,6 +950,8 @@ visibility: hidden;
 
 }
 
+
+
 .__portfolio__elements__example_web{
   display: block;
   position: relative;
@@ -956,6 +959,7 @@ visibility: hidden;
   height: 100%;
   overflow: hidden;
   border-radius: 16px;
+  cursor: pointer;
 }
 .__portfolio__elements__example_web img{
   position: absolute;
@@ -979,10 +983,19 @@ font-size: 10px;
 font-style: normal;
 font-weight: 300;
 line-height: 149.4%;
+z-index: 800;
+opacity: 0;
 }
 .__portfolio__placeholder__text span{
   font-weight: 600;
 }
+.__portfolio__elements__example:hover .__portfolio__placeholder__text{
+  opacity: 1;
+}
+
+
+
+
 
 
 
@@ -1294,7 +1307,7 @@ bottom: 24%;
 .content__whyWe__placeholder {
   position: absolute;
   right: 0;
-  top: -60vh;
+  top: -200px;
 }
 
 .content__whyWe__placeholder img {
@@ -2465,7 +2478,7 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
   height: 455px;
 }
 .content__portfolio{
-  margin-top: 25vh;
+
 }
 
 .__portfolio__elements__example{
@@ -2580,6 +2593,85 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
 .__footer__wrapper {
   height: 170px;
 }
+
+.__main__additional_desc__block{
+  bottom: -50px;
+}
+
+.content__whatWeDo{
+  margin-top: 100px;
+}
+.__whatWeDo__wrapper{
+  margin-top: 0;
+}
+.__whatWeDo__name{
+  margin-bottom: 50px;
+}
+.__whatWeDo__wrapper2{
+  margin-top: 20px;
+}
+.__main__image__placeholder4 {
+  bottom: -270px;
+}
+.__main__image__placeholder3{
+  bottom: -614px;
+}
+.__whatWeDo__placeholder {
+  bottom: -200px;
+}
+.content__portfolio{
+  margin-top: 0px ;
+}
+
+
+.content__whyWe{
+  margin-top: 0;
+}
+
+
+
+
+
+.__portfolio__name__link{
+  width: 1150px;
+}
+.__portfolio__container {
+  width: 1150px;
+}
+.content__whyWe__wrapper{
+  width: 1150px;
+}
+.content__ourVision__wrapper{
+  width: 1150px;
+}
+.__ourVision__column__image{
+  justify-content: end;
+}
+.__ourVision__column__text:nth-child(2){
+  width: 450px;
+}
+.__ourVision__column__text:nth-child(2) .__ourVision__column__image{
+  justify-content: start;
+}
+.__technologies__container{
+  width: 1150px;
+}
+.header__circle__burger{
+  right: 40px;
+  top: 40px;
+}
+}
+@media only screen and (max-width: 1290px){
+  .__whatWeDo__element {
+    width: 500px;
+    height: 390px;
+  }
+  .content__whatWeDo{
+    min-height: 1100px;
+  }
+  .__team__name{
+    transform: scale(0.65);
+  }
 }
 
 @media only screen and (max-width: 1050px) {
