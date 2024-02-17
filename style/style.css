@@ -1789,12 +1789,17 @@ bottom: 24%;
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0.85;
+
+  padding: 10px;
 }
 
 .__technologies__element img {
-  width: 80%;
+  width: 70%;
+  height: 70%;
 }
-
+.__technologies__element6 img{
+  width: 50%;
+}
 .__technologies__element1 {
   left: 10px;
   top: 0;
