@@ -3339,3 +3339,28 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
   height: initial;
 }
 }
+@media only screen and (max-width: 450px){
+  .__portfolio__list{
+    margin-bottom: 35px;
+  }
+  .content__portfolio {
+    margin-top: 370px;
+  }
+  .content__whyWe {
+    margin-top: -12vh;
+    min-height: 502px;
+  }
+
+  .__ourVision__content{
+    margin-top: 30px;
+  }
+  .content__technologies {
+    margin-top: 4vh;
+  }
+  .__technologies__container__elements {
+    margin-top: 64px;
+    }
+    .__contact__form__element__textarea textarea{
+      padding: 10px;
+    }
+}
