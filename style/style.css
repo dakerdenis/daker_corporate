@@ -2029,13 +2029,14 @@ bottom: 24%;
   /* 140% */
   letter-spacing: 0.5px;
 
-  margin-top: 26px;
+  margin-top: 8px;
 
 }
 
 .__contact__form__element__input {
   width: 100%;
   margin-top: 16px;
+  height: 53px;
 }
 
 .__contact__form__element__input input {
@@ -2140,7 +2141,8 @@ letter-spacing: 0.5px;
 text-align: left;
 margin-top: 26px;
 color: #fff;
-margin-bottom: 16px;
+margin-bottom: 9px;
+height: 56px;
 }
 .__contact__form__radio__container{
   width: 100%;
@@ -2394,6 +2396,41 @@ background: linear-gradient(180deg, #1F9D96 0%, #9D9D9D 100%);
 .__portfolio__link__mobile{
   display: none;
   visibility: hidden;
+}
+
+
+/* Error message style */
+.error-message {
+  color: #07E6D9;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: none; /* Initially hidden */
+  margin-top: 4px;
+}
+
+/* Popup style */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: none; /* Initially hidden */
+  z-index: 1000;
+}
+
+.popup-footer {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.form-group-terms{
+  height: 37px;
 }
 @media only screen and (max-width: 1480px) {
   .__footer__wrapper {
