@@ -188,7 +188,11 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to show the success popup
     function showSuccessPopup() {
         const popup = document.getElementById('success-popup');
+<<<<<<< HEAD
         popup.style.display = 'block';
+=======
+        popup.style.display = 'flex';
+>>>>>>> 8390ca57be7d88286ab766e49e6d1692aca340bf
         setTimeout(() => {
             popup.style.display = 'none';
         }, 4000); // Hide after 4 seconds
