@@ -1482,6 +1482,7 @@
                                             </div>
                                             <div class="__contact__form__element__input">
                                                 <input type="text" placeholder="Your name">
+                                                <small class="error-message"></small> <!-- Error message container -->
                                             </div>
                                         </div>
                                         <!----------->
@@ -1493,6 +1494,7 @@
                                             </div>
                                             <div class="__contact__form__element__input">
                                                 <input type="text" placeholder="Your number">
+                                                <small class="error-message"></small> <!-- Error message container -->
                                             </div>
                                         </div>
                                         <!----------->
@@ -1503,7 +1505,8 @@
                                                 E-mail
                                             </div>
                                             <div class="__contact__form__element__input">
-                                                <input type="text" placeholder="Your number">
+                                                <input type="email" id="email" name="email" placeholder="Your email">
+                                                <small class="error-message"></small> <!-- Error message container -->
                                             </div>
                                         </div>
                                         <!----------->
@@ -1522,8 +1525,10 @@
                                         <!----------->
                                         <div class="__contact__form__element__radio">
                                             <div class="__contact__form__element__radio__name">
-                                                How can we contact you?
+                                               <p> How can we contact you?</p>
+                                                <small class="error-message"></small> <!-- Error message that user sshould schoose contact method -->
                                             </div>
+                                            
 
                                             <div class="__contact__form__radio__container">
                                                 <div class="custom-radio">
@@ -1552,15 +1557,24 @@
 
 
 
-                                        <div class="form-group">
+                                        <div class="form-group form-group-terms">
                                             <input type="checkbox" id="javascript">
                                             <label for="javascript">I give my consent to the processing of personal data
-                                                in accordance with the <a href="#">Terms*</a></label>
+                                                in accordance with the <a href="#">Terms*</a></label> <br>
+                                                <small class="error-message"></small> <!-- Error message that user should accept terms and conditions -->
+                                                
                                         </div>
+                                        
 
                                     </div>
                                 </div>
-
+                                <!-- Popup for success message -->
+                                <div id="success-popup" class="popup">
+                                    <p>Your request has been successfully accepted!</p>
+                                    <p>I will contact you as soon as possible.</p>
+                                    <p>Thank you!</p>
+                                    <p class="popup-footer">Daker.</p>
+                                </div>
 
 
                                 <div class="__contact__form__submit">
@@ -1667,8 +1681,13 @@
             freeMode: true,
         });
     </script>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./js/app.js"></script>
+
+
+
+
+
 </body>
 
 </html>
