@@ -2366,7 +2366,9 @@ h6 {
 
 
 }
-
+.__footer__social__element a {
+  cursor: pointer;
+}
 
 
 .__footer__social__element:hover {
@@ -3594,5 +3596,14 @@ h6 {
 
   .content__whatWeDo {
     min-height: 1400px;
+  }
+  .__main__image__placeholder3{
+    display: none;
+    visibility: hidden;
+  }
+  .__main__image__placeholder2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }
