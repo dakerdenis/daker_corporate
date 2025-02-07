@@ -16,19 +16,6 @@ function openTab(tabName) {
     }
     document.querySelector('.tab[data-tab="' + tabName + '"]').classList.add("active");
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
   function openModal(imageSrc) {
     document.getElementById('modal-image').src = imageSrc;
     document.getElementById('modal').style.display = 'flex';
@@ -46,16 +33,6 @@ window.onclick = function (event) {
         closeModal();
     }
 };
-
-
-
-
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
   const burgerIcon = document.querySelector('.header__circle__burger');
   const expandedBlockContainer = document.getElementById('expandedBlockContainer');
@@ -109,14 +86,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   });
 });
-
-
-
-
-
-
-
-
     // Function to clear previous error messages
     function clearErrors() {
         const errorMessages = document.querySelectorAll('.error-message');
